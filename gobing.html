@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Hub</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .button {
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .button:hover {
+        background-color: #0056b3;
+    }
+    .content {
+        background-color: white;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Game Hub</h1>
+    <p>Your destination for all things gaming!</p>
+</header>
+
+<div class="container">
+    <div class="content">
+        <h2>Popular Games</h2>
+        <button class="button" onclick="window.location.href='https://www.epicgames.com/fortnite'">Play Fortnite</button>
+        <button class="button" onclick="window.location.href='https://www.ubisoft.com/en-us/game/rainbow-six/siege'">Play Rainbow Six</button>
+        <button class="button" onclick="window.location.href='https://www.minecraft.net'">Play Minecraft</button>
+    </div>
+    <div class="content">
+        <h2>About Us</h2>
+        <p>We are passionate gamers bringing you the latest news, reviews, and updates from the gaming world.</p>
+    </div>
+    <div class="content">
+        <h2>Explore</h2>
+        <p>Discover new games, join communities, and stay connected with fellow gamers.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Game Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
